@@ -22,7 +22,7 @@
   "homepage": "http://github.com/andris9/nodemailer-smtp-pool",
   "dependencies": {
     "nodemailer-shared": "1.0.4",
-    "nodemailer-wellknown": "0.1.8",
+    "nodemailer-wellknown": "git://github.com/ivanrios/nodemailer-wellknown",
     "smtp-connection": "steveliles/smtp-connection"
   },
   "devDependencies": {
