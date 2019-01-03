@@ -22,8 +22,8 @@
   "homepage": "http://github.com/andris9/nodemailer-smtp-pool",
   "dependencies": {
     "nodemailer-shared": "1.0.4",
-    "nodemailer-wellknown": "git://github.com/ivanrios/nodemailer-wellknown",
-    "smtp-connection": "steveliles/smtp-connection"
+    "nodemailer-wellknown": "git://github.com/ivanrios/nodemailer-wellknown.git",
+    "smtp-connection": "github:steveliles/smtp-connection"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -32,5 +32,9 @@
     "grunt-mocha-test": "^0.12.7",
     "mocha": "^2.4.5",
     "smtp-server": "^1.9.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
